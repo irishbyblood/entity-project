@@ -3,7 +3,7 @@ Computer Vision Provider
 Supports YOLO and CLIP models.
 """
 
-from typing import Optional, List, Any
+from typing import Optional, List, Any, Dict
 import os
 
 
