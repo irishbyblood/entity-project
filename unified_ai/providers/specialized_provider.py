@@ -47,6 +47,10 @@ class MidjourneyProvider:
     
     def __init__(self):
         self.api_key = Config.MIDJOURNEY_API_KEY
+        # Note: Midjourney does not provide a direct public API.
+        # This implementation assumes you're using a third-party API service
+        # like mj.imagineapi.dev or similar services that provide Midjourney access.
+        # Update this URL to match your third-party service provider.
         self.base_url = "https://api.midjourney.com/v1"
     
     def is_available(self) -> bool:

@@ -13,6 +13,9 @@ class MicrosoftProvider:
     
     def __init__(self):
         self.api_key = Config.MICROSOFT_API_KEY
+        # Note: This is a placeholder URL. Microsoft Copilot typically uses 
+        # Microsoft Graph API or Azure OpenAI endpoints.
+        # Update this based on your specific Microsoft service configuration.
         self.base_url = "https://api.microsoft.com/copilot/v1"
     
     def is_available(self) -> bool:

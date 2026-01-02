@@ -228,8 +228,14 @@ unified_ai/
 
 ### Service Availability
 - Some services (Sora, Veo, Tesla Autopilot, DeepMind AlphaGo) have placeholder implementations as their APIs are not publicly available yet
-- Microsoft Copilot requires enterprise access
-- Midjourney typically requires third-party API services
+- Microsoft Copilot requires enterprise access and may use Microsoft Graph API or Azure OpenAI endpoints
+- Midjourney does not provide a direct public API - the implementation assumes use of third-party API services
+- xAI Grok API endpoint is based on expected patterns - update the URL when official documentation is available
+
+### API Endpoint Notes
+- **xAI Grok**: The base URL in the code is a placeholder. Update `unified_ai/providers/xai_provider.py` with the actual endpoint
+- **Microsoft Copilot**: Configure the endpoint based on your Microsoft service (Graph API or Azure OpenAI)
+- **Midjourney**: Use a third-party service provider URL (e.g., mj.imagineapi.dev or similar)
 
 ### Local Models
 - YOLO and CLIP run locally and don't require API keys

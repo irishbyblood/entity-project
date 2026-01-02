@@ -1,5 +1,6 @@
 # Core dependencies
 python-dotenv>=1.0.0
+certifi>=2023.0.0  # SSL certificate verification
 
 # LLM Providers
 openai>=1.0.0

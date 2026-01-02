@@ -13,6 +13,8 @@ class XAIProvider:
     
     def __init__(self):
         self.api_key = Config.XAI_API_KEY
+        # Note: This is a placeholder URL. The actual xAI API endpoint may differ.
+        # Update this URL when official API documentation is available.
         self.base_url = "https://api.x.ai/v1"
     
     def is_available(self) -> bool:
