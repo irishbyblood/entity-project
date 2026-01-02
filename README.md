@@ -58,8 +58,22 @@ A comprehensive Python application that integrates multiple AI models and servic
    ```
 
 3. **Install dependencies:**
+   
+   **Option A - Install everything:**
    ```bash
    pip install -r requirements.txt
+   ```
+   
+   **Option B - Install as package with specific providers:**
+   ```bash
+   # Core only
+   pip install -e .
+   
+   # With OpenAI support
+   pip install -e ".[openai]"
+   
+   # With all providers
+   pip install -e ".[all]"
    ```
 
 4. **Configure API keys:**
@@ -67,6 +81,10 @@ A comprehensive Python application that integrates multiple AI models and servic
    cp .env.example .env
    # Edit .env and add your API keys
    ```
+
+## Quick Start
+
+For a faster introduction, see [QUICKSTART.md](QUICKSTART.md) - get running in 5 minutes!
 
 ## Configuration
 
