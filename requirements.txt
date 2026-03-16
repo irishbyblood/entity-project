@@ -1,0 +1,25 @@
+# Core dependencies
+python-dotenv>=1.0.0
+certifi>=2023.0.0  # SSL certificate verification
+
+# LLM Providers
+openai>=1.0.0
+anthropic>=0.18.0
+google-generativeai>=0.3.0
+mistralai>=0.1.0
+
+# Image Generation
+Pillow>=10.0.0
+requests>=2.31.0
+
+# Computer Vision
+opencv-python>=4.8.0
+ultralytics>=8.0.0  # YOLO
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0  # For CLIP
+
+# Utilities
+numpy>=1.24.0
+aiohttp>=3.9.0
+httpx>=0.25.0
